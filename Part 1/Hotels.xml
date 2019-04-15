@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotels>
+    <Hotel Stars="" BusLines="">
+        <Name></Name>
+        <Contact>
+            <Phone></Phone>
+            <Email></Email>
+        </Contact>   
+        <Address>
+            <Number></Number>
+            <Street></Street>
+            <City></City>
+            <Zip></Zip>   
+        </Address>   
+    </Hotel>
+    <Hotel Stars="" BusLines="">
+        <Name></Name>
+        <Contact>
+            <Phone></Phone>
+            <Email></Email>
+        </Contact>   
+        <Address>
+            <Number></Number>
+            <Street></Street>
+            <City></City>
+            <Zip></Zip>   
+        </Address>   
+    </Hotel>
+    <Hotel Stars="" BusLines="">
+        <Name></Name>
+        <Contact>
+            <Phone></Phone>
+            <Email></Email>
+        </Contact>   
+        <Address>
+            <Number></Number>
+            <Street></Street>
+            <City></City>
+            <Zip></Zip>   
+        </Address>   
+    </Hotel>
+    <Hotel Stars="" BusLines="">
+        <Name></Name>
+        <Contact>
+            <Phone></Phone>
+            <Email></Email>
+        </Contact>   
+        <Address>
+            <Number></Number>
+            <Street></Street>
+            <City></City>
+            <Zip></Zip>   
+        </Address>   
+    </Hotel>
+    <Hotel Stars="" BusLines="">
+        <Name></Name>
+        <Contact>
+            <Phone></Phone>
+            <Email></Email>
+        </Contact>   
+        <Address>
+            <Number></Number>
+            <Street></Street>
+            <City></City>
+            <Zip></Zip>   
+        </Address>   
+    </Hotel>
+</Hotels>

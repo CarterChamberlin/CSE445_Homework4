@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "c:\\Users\\carte\\source\\repos\\CSE445_Homework4\\Part 1\\XMLTraversal\\XMLTraversal\\XMLTraversal.csproj",
+  "TargetFramework": "v4.6.1",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}
