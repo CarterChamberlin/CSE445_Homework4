@@ -10,7 +10,7 @@
               <xs:element name="Contact">
                 <xs:complexType>
                   <xs:sequence>
-                    <xs:element type="xs:string" name="Phone"/>
+                    <xs:element type="xs:int" name="Phone"/>
                     <xs:element type="xs:string" name="Email"/>
                   </xs:sequence>
                 </xs:complexType>
@@ -18,10 +18,10 @@
               <xs:element name="Address">
                 <xs:complexType>
                   <xs:sequence>
-                    <xs:element type="xs:string" name="Number"/>
+                    <xs:element type="xs:int" name="Number"/>
                     <xs:element type="xs:string" name="Street"/>
                     <xs:element type="xs:string" name="City"/>
-                    <xs:element type="xs:string" name="Zip"/>
+                    <xs:element type="xs:int" name="Zip"/>
                   </xs:sequence>
                 </xs:complexType>
               </xs:element>
