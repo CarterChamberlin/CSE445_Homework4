@@ -1,0 +1,7 @@
+C:\Users\carte\source\repos\CSE445_Homework4\Part 2\XML_API\XML_API\bin\XML_API.dll.config
+C:\Users\carte\source\repos\CSE445_Homework4\Part 2\XML_API\XML_API\bin\XML_API.dll
+C:\Users\carte\source\repos\CSE445_Homework4\Part 2\XML_API\XML_API\bin\XML_API.pdb
+C:\Users\carte\source\repos\CSE445_Homework4\Part 2\XML_API\XML_API\obj\Debug\XML_API.csprojAssemblyReference.cache
+C:\Users\carte\source\repos\CSE445_Homework4\Part 2\XML_API\XML_API\obj\Debug\XML_API.csproj.CoreCompileInputs.cache
+C:\Users\carte\source\repos\CSE445_Homework4\Part 2\XML_API\XML_API\obj\Debug\XML_API.dll
+C:\Users\carte\source\repos\CSE445_Homework4\Part 2\XML_API\XML_API\obj\Debug\XML_API.pdb

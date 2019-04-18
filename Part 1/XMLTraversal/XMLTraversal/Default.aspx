@@ -10,7 +10,7 @@
     <asp:Panel runat="server" ID="serviceInfo" CssClass="jumbotron" BorderWidth="3">
         <h3>XML Service Information</h3>
         <hr />
-        <h4>This service has been implmented for CSE 445: Homework 4 - Part 1. This service will traverse any given XML document in a "pre-order" method.</h4>
+        <h4>This service has been implmented for CSE 445: Homework 4 - Part 1. This service will traverse any given XML document in both "pre-order" and "post-order" methods.</h4>
         <h4>To use this service, enter the URL of any XML (.xml) file; or use the example XML (Hotels.xml) given.</h4>
     </asp:Panel>
 

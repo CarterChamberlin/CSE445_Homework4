@@ -22,7 +22,7 @@ namespace XMLTraversal
         
         protected void hotelBtn_Click(object sender, EventArgs e)
         {
-            string hotelPath = Server.MapPath("Hotels.xml");
+            string hotelPath = Server.MapPath("~/xmlDocs/Hotels.xml");
             urlInput.Text = hotelPath;
             submitBtn_Click(sender, e);
         }
