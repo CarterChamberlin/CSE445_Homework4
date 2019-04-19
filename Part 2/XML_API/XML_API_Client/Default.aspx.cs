@@ -14,6 +14,7 @@ namespace XML_API_Client
         protected void Page_Load(object sender, EventArgs e)
         {
             verificationOutput.Visible = false;
+            xpathOutput.Visible = false;
         }
         protected void verifyBtn_Click(object sender, EventArgs e)
         {
@@ -60,19 +61,46 @@ namespace XML_API_Client
         }
         protected void searchBtn_Click(object sender, EventArgs e)
         {
+            string xmlUrl = xmlSearchUrl.Text;
+            string search = searchTerm.Text;
 
+            string url = @"http://localhost:18136/Service1.svc/xmlXPathSearch?xmlUrl=" + xmlUrl +"&pathExpression=" + search;
+
+            string searchRes = readerResponse(url);
+            searchRes = searchRes.Trim('"');
+
+            queryOutput.Text = searchRes;
+            xpathOutput.Visible = true;
         }
         protected void searchTC1_Click(object sender, EventArgs e)
         {
+            string hotelXMLpath = Server.MapPath("~/xmlDocs/Hotels.xml");
+            string searchPath = "//Name";
 
+            xmlSearchUrl.Text = hotelXMLpath;
+            searchTerm.Text = searchPath;
+
+            searchBtn_Click(sender, e);
         }
         protected void searchTC2_Click(object sender, EventArgs e)
         {
+            string hotelXMLpath = Server.MapPath("~/xmlDocs/Hotels.xml");
+            string searchPath = "//Phone";
 
+            xmlSearchUrl.Text = hotelXMLpath;
+            searchTerm.Text = searchPath;
+
+            searchBtn_Click(sender, e);
         }
         protected void searchTC3_Click(object sender, EventArgs e)
         {
+            string hotelXMLpath = Server.MapPath("~/xmlDocs/Hotels.xml");
+            string searchPath = "/Hotels/Hotel[2]";
 
+            xmlSearchUrl.Text = hotelXMLpath;
+            searchTerm.Text = searchPath;
+
+            searchBtn_Click(sender, e);
         }
         string readerResponse(string url)
         {

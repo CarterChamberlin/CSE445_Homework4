@@ -46,8 +46,27 @@ namespace XML_API
 
         public string xmlXPathSearch(string xmlUrl, string pathExpression)
         {
+            string searchResult = string.Empty;
 
-            return "";
+            XPathDocument doc = new XPathDocument(xmlUrl);
+            XPathNavigator nav = doc.CreateNavigator();
+            XPathNodeIterator it = nav.Select(pathExpression);
+
+            while (it.MoveNext())
+            {
+                searchResult += it.Current.Value.ToString() + "<br />";
+            }
+
+            if (searchResult == string.Empty)
+            {
+                searchResult = "<h4>No Results!";
+            }
+            else
+            {
+                searchResult = "<pre>" + searchResult;
+            }
+
+            return searchResult;
         }
 
         void validate(object sender, ValidationEventArgs e)
